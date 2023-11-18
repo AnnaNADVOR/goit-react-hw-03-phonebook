@@ -47,7 +47,7 @@ class ContactForm extends Component {
                             value={name}
                             onChange={this.changeInput}
                             placeholder="Name Surname"
-                            pattern="^[a-zA-Zа-яА-Я-іІ-їЇ-Йй-єЄ]+(([' \-][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+                            pattern="^[a-zA-Zа-яА-Я]+(([' \-][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
                             title="Name may contain only letters, apostrophe, dash and spaces."
                             required
                         />
